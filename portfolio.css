@@ -1,0 +1,15 @@
+.container {
+	max-width: 800px;
+	padding: 80px 20px;
+}
+
+img {
+	float: left;
+	height: 200px;
+	border-radius: 10%;
+	margin: 0 30px;
+}
+
+p {
+	padding-bottom: 50px;
+}
