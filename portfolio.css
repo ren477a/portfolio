@@ -1,10 +1,16 @@
+body {
+	font-family: "Exo 2";
+	margin: 100px 0;
+}
+
 .container {
-	max-width: 850px;
-	background: #eee;
+	max-width: 900px;
 }
 
 #upper {
-	padding: 80px 20px 0 20px;
+	padding: 40px 20px 40px 20px;
+	background: rgba(0, 0, 255, 0.2);
+	border: 3px solid black;
 }
 
 #dp {
@@ -23,8 +29,12 @@
 	height: 100%;
 }
 
-.col-sm-6 {
-	background: #ddd;
-	border: 1px solid white;
+.col-sm-12 {
+	background: white;
+	border: 1px solid black;
 	padding: 0;
+}
+
+.col-sm-6 {
+	padding: 15px;
 }
